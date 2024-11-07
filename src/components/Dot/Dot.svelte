@@ -8,6 +8,7 @@
 <button
   class="sc-carousel-button sc-carousel-dot__dot"
   class:sc-carousel-dot__dot_active={active}
+  aria-label="button that changes slider"
   on:click
 ></button>
 

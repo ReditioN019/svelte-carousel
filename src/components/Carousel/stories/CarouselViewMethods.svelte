@@ -56,15 +56,15 @@
   <div class="sb-container">
     <span class="sb-title">carousel.goTo</span>
     <input class="sb-input" type="number" on:change={handlePageChange} />
-    <button class="sb-button" on:click={handleGoToClick}>Go</button>
+    <button class="sb-button" on:click={handleGoToClick} aria-label="go">Go</button>
     <div class="sb-divider"></div>
 
     <span class="sb-title">carousel.goToPrev</span>
-    <button class="sb-button" on:click={handleGoToPrevClick}>Go</button>
+    <button class="sb-button" on:click={handleGoToPrevClick} aria-label="go">Go</button>
     <div class="sb-divider"></div>
 
     <span class="sb-title">carousel.goToNext</span>
-    <button class="sb-button" on:click={handleGoToNextClick}>Go</button>
+    <button class="sb-button" on:click={handleGoToNextClick} aria-label="go">Go</button>
     <div class="sb-divider"></div>
   </div>
 </div>
